@@ -1,0 +1,198 @@
+.box {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.openbtn {
+position: -webkit-sticky;
+position: sticky;
+align-self: flex-end;
+width: 49px;
+height: 49px;
+margin: 49px;
+}
+
+.openbtn:hover + .sidemenu {
+display: block;
+}
+
+.sidemenu .closebtn {
+margin-left: 150px;
+}
+
+.sidemenu {
+width: 200px;
+height: 100%;
+margin: 0;
+padding: 0;
+background-color: #f1f1f1;
+position: fixed;
+overflow: auto;
+display: none;
+}
+
+.sidemenu ul {
+margin-right: 4px;
+margin-top: 299px;
+list-style-type: none;
+}
+
+.sidemenu a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+
+.sidemenu .submenu {
+display: none;
+}
+
+.sidemenu .item:hover + .submenu {
+display: block;
+}
+
+.prd {
+width: 1000px;
+heigth: 2000px;
+margin-left: 22%;
+}
+
+h1 { 
+align-self: center;
+font-weight: 20px;
+font-size: 29px;
+margin: 49px;
+padding: 0;
+color: #1b1c1c;
+}
+
+.prd h {
+font-weight: 100%;
+font-size: 100%;
+color: #1b1c1c;
+}
+
+.prd p {
+font-weight: ;
+font-size: ;
+color: #1b1c1c;
+}
+
+body {
+width: 100%;
+height: 100%;
+backround-color: #f1f1f1;
+overflow: hidden;
+}
+
+h1 {
+text-align: center;
+margin-top; 10px;
+padding-top: 200px;
+}
+
+.box {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 500px;
+height: 400px;
+margin-left: 499px;
+padding: 20px;
+}
+
+.name {
+display: flex;
+}
+
+.fname input[type=text] {
+flex: 1;
+width: 190px;
+height: 20px;
+margin: 10px;
+}
+
+.email input[type=text] {
+width: 414px;
+height: 20px;
+margin: 10px;
+}
+
+.subject input[type=text] {
+width: 414px;
+height: 200px;
+margin: 10px;
+}
+
+button {
+position: fixed;
+top: 700px;
+left: 692px;
+width: 110px;
+height: 20px;
+margin: 0;
+}
+
+.boxhome {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.boxhome .boxh {
+align-self: center;
+width: 290px;
+height: 200px;
+}
+
+.boxhome .boxh h {
+align-self: center;
+font-size: 299%;
+margin-top: 49px;
+}
+
+.boxhome ul {
+align-self: center;
+list-style-type: none;
+font-size: 149%;
+margin-top:49px;
+}
+
+.boxhome a {
+text-decoration: none;
+color: #1b1c1c;
+}
+
+.imghome {
+display: flex;
+align-self: center;
+margin-top: 1000px;
+}
+
+.imghome img {
+padding: 7px;
+}
+
+.imghome .img1 {
+flex: 1;
+margin-top: 0;
+padding: 2px;
+}
+
+.imghome .img2 {
+margin-top: 2.29px;
+padding: 2px;
+}
+
+.boxhome .buttonp {
+margin-top: 1000px;
+}
+
+.boxhome button {
+align-self: center;
+margin-top: 10px;
+}
