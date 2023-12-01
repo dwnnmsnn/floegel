@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+<head>
+<title>mvpfloegel/improvingmindlist</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+<button onclick="showSidemenu ()">
+Menu
+</button>
+
+<div class=sidemenu>
+<ul>
+<li><a href="https://www.mvpfloegel.com/home">Home</a></li>
+<li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
+<li class=item><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
+
+<ul class=submenu>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user">User</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user/types">User Types</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/product">Product</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/requirements">Requirements</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/successmetrics">Success Metrics</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/open/questions">Open Questions</a></li>
+</ul>
+
+<li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
+</ul>
+</div>
+
+<h1>Improving Mindlist</h1>
+
+<h></h></br></br>
+
+<p></p></br></br>
+
+<div class=box>
+<h></h>Mindlist</br></br>
+
+<a href="https://ibb.co/Q6qJvby"><img src="https://i.ibb.co/4jDFRmh/Bildschirmfoto-2023-11-30-um-8-28-31-PM.png" alt="Bildschirmfoto-2023-11-30-um-8-28-31-PM" border="0"></a>
+  
+<h></h>Problem</br></br>
+
+<h></h>User</br></br>
+
+<h></h>Product</br></br>
+
+<a class=img href="https://ibb.co/tQqBHtC"><img src="https://i.ibb.co/QpP9JRm/Bildschirmfoto-2023-11-17-um-11-11-02-AM.png" alt="Bildschirmfoto-2023-11-17-um-11-11-02-AM" border="0" /></a></br></br>
+
+<a href="https://ibb.co/F63dR9d"><img src="https://i.ibb.co/cJ3s4Ps/Bildschirmfoto-2023-11-30-um-8-27-35-PM.png" alt="Bildschirmfoto-2023-11-30-um-8-27-35-PM" border="0"></a>
+
+<h>How to go from here?</h></br>
+
+<a class=img href="https://ibb.co/6v1FmwZ"><img src="https://i.ibb.co/KNLWXhG/Bildschirmfoto-2023-11-17-um-11-57-38-AM.png" alt="Bildschirmfoto-2023-11-17-um-11-57-38-AM" border="0" /></a>
+
+<h></h>Why build it?</br></br>
+
+</div>
+</body>
+
+</html>
