@@ -1,0 +1,121 @@
+<!Doctype html>
+<html>
+
+<head>
+<titlePRD>mvpfloegel/mindlistprd</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<div class=box>
+<body>
+  
+<div class=button>
+<button onclick="showSidemenu ()">
+Menu
+</button>
+</div>
+
+<div class=sidemenu>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<ul>
+<li><a href="https://www.mvpfloegel.com/home">Home</a></li>
+<li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
+<li class=item><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
+
+<ul class=submenu>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user">User</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user/types">User Types</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/product">Product</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/requirements">Requirements</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/successmetrics">Success Metrics</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/open/questions">Open Questions</a></li>
+</ul>
+
+<li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
+</ul>
+</div>
+
+<h1>Mindlist PRD</h1></br></br></br></br>
+
+<div class=prd>
+<h>User</h></br></br>
+
+<p></p></br></br>
+
+<h>User Types</h></br></br>
+
+<p>
+1. User - people who use Mindlist for free</br>
+2. User Premium - people who use Mindlist premium with overview of scheduled To Dos, recurring To dos, more colors</br>
+</p></br></br>
+
+<h>Product<h></br></br>
+
+<h>Suggestion popups</h>
+
+<p>
+The popups will notify the user trying to support the user to be more productive. Suggesting to try or offering to put some groceries you need to buy on your grocery list.
+</p>
+
+<h>Showing undone To dos</p>
+
+<p>
+The window showing undone To dos will be shown on the Mindlist home screen every time the user opens Mindlist. It offers users to move, reschedule, delete, or tick off undone To dos.
+</p></br></br>
+
+<h>Requirements</h></br></br>
+
+<h>Suggestion popups</h>
+
+<p></p>
+
+<h>Showing undone To dos</h>
+
+<p></p></br></br>
+
+<h>Success Metrics</h></br></br>
+
+<p>
+number of moved To dos from undone list   10 To dos per user per week</br>
+number of times user opens Mindlist with popups 10 times per user per week</br>
+</p></br></br>
+
+<h>Open Questions</h></br></br>
+
+<p>Pricing Modell?</br>
+Will existing users continue to use Mindlist?</br>
+How often should users be notified with suggestions?</br>
+How often should the window with undone To dos be shown?</br></p></br></br>
+</div>
+
+</body>
+</div>
+</html>
+
+Connect
+
+<body>
+<form action="https://formsubmit.co/form@mvpfloegel.com" method="POST">
+<h1>Connect</h1>
+<div class=box>
+<div class='name'>
+<div class='fname'>
+<input type=text placeholder="First name">
+</div>
+<div class='fname'>
+<input type=text placeholder="Last name">
+</div>
+</div>
+<div class=email>
+</br>
+<input type=text placeholder="Email">
+</div>
+<div class=subject>
+</br>
+<input type=text placeholder="Write something">
+<button type="submit">Connect</button>
+</div>
+</form>
+  
+</body>
+</html>
