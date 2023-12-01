@@ -1,0 +1,69 @@
+<!Doctype html>
+<html>
+
+<head>
+<title>mvpfloegel/home</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+<div class=box>
+
+</div><div class=openbtn>
+<img src="data:image/svg+xml;base64,PHN2ZyBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjIgMTYuNzVjMC0uNDE0LS4zMzYtLjc1LS43NS0uNzVoLTE4LjVjLS40MTQgMC0uNzUuMzM2LS43NS43NXMuMzM2Ljc1Ljc1Ljc1aDE4LjVjLjQxNCAwIC43NS0uMzM2Ljc1LS43NXptMC01YzAtLjQxNC0uMzM2LS43NS0uNzUtLjc1aC0xOC41Yy0uNDE0IDAtLjc1LjMzNi0uNzUuNzVzLjMzNi43NS43NS43NWgxOC41Yy40MTQgMCAuNzUtLjMzNi43NS0uNzV6bTAtNWMwLS40MTQtLjMzNi0uNzUtLjc1LS43NWgtMTguNWMtLjQxNCAwLS43NS4zMzYtLjc1Ljc1cy4zMzYuNzUuNzUuNzVoMTguNWMuNDE0IDAgLjc1LS4zMzYuNzUtLjc1eiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9zdmc+">
+</div> 
+
+<div class=sidemenu>
+<ul>
+<li><a href="https://www.mvpfloegel.com/home">Home</a></li>
+<li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
+<li class=item><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
+
+<ul class=submenu>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user">User</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/user/types">User Types</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/product">Product</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/requirements">Requirements</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/successmetrics">Success Metrics</a></li>
+<li><a href="www.mvpfloegel.com/mindlist/prd/open/questions">Open Questions</a></li>
+</ul>
+
+<li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
+</ul>
+</div>
+
+<div class=boxhome>
+<div class=boxh>
+<h>Driven by continuous discovery not by being right.</h>
+</div>
+
+<p></p>
+
+<div class=buttonp><p></p></div>
+
+<button><a href="https://www.mvpfloegel.com/connect">Connect</a></button>
+
+<div class=imghome>
+<div class=img1>
+<a href="https://www.linkedin.com/in/sarah-floegel-08b07021b">
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNC45OCAzLjVjMCAxLjM4MS0xLjExIDIuNS0yLjQ4IDIuNXMtMi40OC0xLjExOS0yLjQ4LTIuNWMwLTEuMzggMS4xMS0yLjUgMi40OC0yLjVzMi40OCAxLjEyIDIuNDggMi41em0uMDIgNC41aC01djE2aDV2LTE2em03Ljk4MiAwaC00Ljk2OHYxNmg0Ljk2OXYtOC4zOTljMC00LjY3IDYuMDI5LTUuMDUyIDYuMDI5IDB2OC4zOTloNC45ODh2LTEwLjEzMWMwLTcuODgtOC45MjItNy41OTMtMTEuMDE4LTMuNzE0di0yLjE1NXoiLz48L3N2Zz4=">
+</a>
+</div>
+
+<div class=img2>
+<a href="mailto:hi@mvpfloegel.com"> 
+<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAzdjE4aDI0di0xOGgtMjR6bTIxLjUxOCAybC05LjUxOCA3LjcxMy05LjUxOC03LjcxM2gxOS4wMzZ6bS0xOS41MTggMTR2LTExLjgxN2wxMCA4LjEwNCAxMC04LjEwNHYxMS44MTdoLTIweiIvPjwvc3ZnPg==">
+</a>
+</div>
+</div>
+  
+<ul>
+<li><a href="https://www.mvpfloegel.com/home">Home</a></li>
+<li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
+<li class=item><a href="https://www.mvpfloegel.com/mindlist/prd">Mindlist PRD</a></li>
+<li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
+</ul>
+</div>
+
+</body>
+</html>
