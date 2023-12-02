@@ -2,10 +2,9 @@
 <html>
 
 <head>
-<titlePRD>mvpfloegel/connect</title>
+<title>mvpfloegel/connect</title>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-
 
 <body>
 <form action="https://formsubmit.co/form@mvpfloegel.com" method="POST">
@@ -26,7 +25,7 @@
 <div class=subject>
 </br>
 <input type=text placeholder="Write something">
-<button type="submit">Connect</button>
+<button type="submit" class=submitbtn>Connect</button>
 </div>
 </form>
 
