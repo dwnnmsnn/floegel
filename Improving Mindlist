@@ -5,12 +5,17 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
+<div class=box>
 <body>
-<button onclick="showSidemenu ()">
-Menu
+  
+<button onclick="showsidemenu()" class=openbtn>
+<img src="data:image/svg+xml;base64,PHN2ZyBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjIgMTYuNzVjMC0uNDE0LS4zMzYtLjc1LS43NS0uNzVoLTE4LjVjLS40MTQgMC0uNzUuMzM2LS43NS43NXMuMzM2Ljc1Ljc1Ljc1aDE4LjVjLjQxNCAwIC43NS0uMzM2Ljc1LS43NXptMC01YzAtLjQxNC0uMzM2LS43NS0uNzUtLjc1aC0xOC41Yy0uNDE0IDAtLjc1LjMzNi0uNzUuNzVzLjMzNi43NS43NS43NWgxOC41Yy40MTQgMCAuNzUtLjMzNi43NS0uNzV6bTAtNWMwLS40MTQtLjMzNi0uNzUtLjc1LS43NWgtMTguNWMtLjQxNCAwLS43NS4zMzYtLjc1Ljc1cy4zMzYuNzUuNzUuNzVoMTguNWMuNDE0IDAgLjc1LS4zMzYuNzUtLjc1eiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9zdmc+">
 </button>
 
 <div class=sidemenu>
+<button onclick="closesidemenu()" class=closebtn>
+&times;
+</button>
 <ul>
 <li><a href="https://www.mvpfloegel.com/home">Home</a></li>
 <li><a href="https://www.mvpfloegel.com/improving/mindlist">Improving Mindlist</a></li>
@@ -31,6 +36,8 @@ Menu
 
 <h1>Improving Mindlist</h1>
 
+<a href="https://ibb.co/0yQW4ks"><img src="https://i.ibb.co/b57ywxb/Bildschirmfoto-2023-12-02-um-8-40-10-PM.png" alt="Bildschirmfoto-2023-12-02-um-8-40-10-PM" border="0"></a>
+
 <h></h></br></br>
 
 <p></p></br></br>
@@ -46,6 +53,8 @@ Menu
 
 <h></h>Product</br></br>
 
+<a href="https://ibb.co/mTG7dx0"><img src="https://i.ibb.co/yPXJK3p/Bildschirmfoto-2023-12-02-um-8-29-09-PM.png" alt="Bildschirmfoto-2023-12-02-um-8-29-09-PM" border="0"></a>
+
 <a class=img href="https://ibb.co/tQqBHtC"><img src="https://i.ibb.co/QpP9JRm/Bildschirmfoto-2023-11-17-um-11-11-02-AM.png" alt="Bildschirmfoto-2023-11-17-um-11-11-02-AM" border="0" /></a></br></br>
 
 <a href="https://ibb.co/F63dR9d"><img src="https://i.ibb.co/cJ3s4Ps/Bildschirmfoto-2023-11-30-um-8-27-35-PM.png" alt="Bildschirmfoto-2023-11-30-um-8-27-35-PM" border="0"></a>
@@ -56,7 +65,10 @@ Menu
 
 <h></h>Why build it?</br></br>
 
-</div>
+<a href="https://ibb.co/0yQW4ks"><img src="https://i.ibb.co/b57ywxb/Bildschirmfoto-2023-12-02-um-8-40-10-PM.png" alt="Bildschirmfoto-2023-12-02-um-8-40-10-PM" border="0"></a>
+
 </body>
+</div>
 
 </html>
+
