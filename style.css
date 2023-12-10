@@ -1,4 +1,4 @@
-.box {
+.prdbox {
 display: flex;
 flex-direction: column;
 width: 100%;
@@ -66,9 +66,10 @@ display: block;
 }
 
 .prd {
-width: 1000px;
+width: 600px;
 heigth: 2000px;
 margin-left: 22%;
+margin-bottom: 79px;
 }
 
 h1 { 
@@ -92,26 +93,18 @@ font-size: ;
 color: #1b1c1c;
 }
 
-body {
-width: 100%;
-height: 100%;
-backround-color: #f1f1f1;
-overflow: hidden;
-}
-
 h1 {
 text-align: center;
 margin-top; 10px;
 padding-top: 200px;
 }
 
-.box {
+.form {
 display: flex;
 flex-direction: column;
-align-items: flex-start;
 width: 500px;
 height: 400px;
-margin-left: 499px;
+margin-left: 255px;
 padding: 20px;
 }
 
@@ -121,30 +114,31 @@ display: flex;
 
 .fname input[type=text] {
 flex: 1;
+border-color: #1b1c1c;
 width: 190px;
 height: 20px;
 margin: 10px;
 }
 
 .email input[type=text] {
+border-color: #1b1c1c;
 width: 414px;
 height: 20px;
 margin: 10px;
 }
 
 .subject input[type=text] {
+border-color: #1b1c1c;
 width: 414px;
 height: 200px;
 margin: 10px;
 }
 
 .submitbtn {
-position: fixed;
-top: 700px;
-left: 692px;
-width: 110px;
+width: 90px;
 height: 29px;
-margin: 0;
+margin-top: 22px;
+margin-left: 172px;
 background-color: #ffffff;
 border-color: #1b1c1c;
 display: inline-block;
@@ -153,14 +147,11 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-
 .submitbtn:hover {
-position: fixed;
-top: 700px;
-left: 692px;
-width: 110px;
+width: 90px;
 height: 29px;
-margin: 0;
+margin-top: 22px;
+margin-left: 172px;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -169,33 +160,43 @@ font-size: 12px;
 color: #ffffff;
 }
 
-.boxhome {
+.homebox {
 display: flex;
 flex-direction: column;
 width: 100%;
 height: 100%;
 }
 
-.boxhome .boxh {
+.home {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.home .homeh {
 align-self: center;
 width: 290px;
 height: 200px;
+font-size: 49px;
 }
 
-.boxhome .boxh h {
+.home .homep {
 align-self: center;
-font-size: 299%;
+width: 400px;
+height: 400px;
+font-size: 20px;
 margin-top: 49px;
 }
 
-.boxhome ul {
+.home ul {
 align-self: center;
 list-style-type: none;
 font-size: 149%;
 margin-top:49px;
 }
 
-.boxhome a {
+.home a {
 text-decoration: none;
 color: #1b1c1c;
 }
@@ -221,14 +222,14 @@ margin-top: 2.29px;
 padding: 2px;
 }
 
-.boxhome .buttonp {
+.home .buttonp {
 align-self: center;
 width:290px;
 height: 29px;
-margin-top: 1000px;
+margin-top: 49px;
 }
 
-.boxhome .homebtn {
+.home .homebtn {
 align-self: center;
 margin-top: 79px;
 font-size:1em;
@@ -240,12 +241,20 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
+.imprbox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
 .impr {
 display: flex;
 flex-direction: column;
 width: 1000px;
 heigth: 2000px;
 margin-left: 22%;
+margin-botto: 79px;
 }
 
 .impr h {
