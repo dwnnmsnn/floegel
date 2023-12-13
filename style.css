@@ -45,7 +45,6 @@ background-color: #4c4c4b;
 display: none;
 }
 
-
 .sidemenu ul {
 margin-right: 4px;
 margin-top: 299px;
@@ -70,7 +69,7 @@ display: block;
 .prd {
 width: 600px;
 heigth: 2000px;
-margin-left: 22%;
+margin-left: 479px;
 margin-bottom: 79px;
 }
 
@@ -165,6 +164,22 @@ width: 90px;
 height: 29px;
 margin-top: 22px;
 margin-left: 172px;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+
+.submitbtn:active {
+width: 90px;
+height: 29px;
+margin-top: 22px;
+margin-left: 172px;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -241,15 +256,17 @@ padding: 2px;
 
 .home .buttonp {
 align-self: center;
-width:290px;
+width: 290px;
 height: 29px;
 margin-top: 49px;
 }
 
 .home .homebtn {
 align-self: center;
+width: 90px;
+height: 29px;
 margin-top: 79px;
-font-size:1em;
+font-size: 1em;
 background-color: #ffffff;
 border-color: #1b1c1c;
 display: inline-block;
