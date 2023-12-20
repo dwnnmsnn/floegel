@@ -106,8 +106,7 @@ display: flex;
 flex-direction: column;
 width: 400px;
 height: 400px;
-margin-left: 479px;
-padding: 20px;
+margin-left: 429px;
 }
 
 .name {
@@ -146,7 +145,7 @@ margin: 10px;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 149px;
+margin-left: 129px;
 background-color: #ffffff;
 border-color: #1b1c1c;
 border-radius: 20px;
@@ -160,7 +159,7 @@ color: #1b1c1c;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 172px;
+margin-left: 129px;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -176,7 +175,7 @@ color: #1b1c1c;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 172px;
+margin-left: 129px;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -269,6 +268,21 @@ background-color: #ffffff;
 border-color: #1b1c1c;
 display: inline-block;
 border-radius: 20px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+.home .homebtn:hover {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 79px;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
 font-family: system-ui;
 font-size: 12px;
 color: #1b1c1c;
