@@ -32,7 +32,6 @@ color: #ffffff;
 }
 
 .sidemenu {
-position: fixed;
 width: 200px;
 height: 100%;
 top: 0;
@@ -66,7 +65,7 @@ display: block;
 .prd {
 width: 600px;
 heigth: 2000px;
-margin-left: 479px;
+margin-left: 429px;
 margin-bottom: 79px;
 }
 
@@ -75,7 +74,8 @@ align-self: center;
 ​​font-family: system-ui;
 font-weight: 20px;
 font-size: 29px;
-margin: 49px;
+margin-top: 29px;
+margin-bottom: 49px;
 padding: 0;
 color: #1b1c1c;
 }
@@ -92,13 +92,6 @@ font-family: system-ui;
 font-weight: ;
 font-size: ;
 color: #1b1c1c;
-}
-
-h1 {
-text-align: center;
-font-family: system-ui;
-margin-top; 10px;
-padding-top: 200px;
 }
 
 .form {
