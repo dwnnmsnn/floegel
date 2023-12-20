@@ -19,10 +19,6 @@ font-size:1em;
 color: #1b1c1c;
 }
 
-.openbtn:hover + .sidemenu {
-display: block;
-}
-
 .sidemenu .closebtn {
 width: 49px;
 height; 49px;
@@ -53,6 +49,7 @@ list-style-type: none;
 
 .sidemenu a {
 display: block;
+font-family: system-ui;
 color: #ffffff;
 padding: 16px;
 text-decoration: none;
