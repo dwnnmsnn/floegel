@@ -42,7 +42,7 @@ display: none;
 
 .sidemenu ul {
 margin-right: 4px;
-margin-top: 299px;
+margin-top: 229px;
 list-style-type: none;
 }
 
@@ -50,7 +50,6 @@ list-style-type: none;
 display: block;
 font-family: system-ui;
 color: #ffffff;
-padding: 16px;
 text-decoration: none;
 }
 
@@ -63,6 +62,7 @@ display: block;
 }
 
 .submenu {
+display: flex;
 weidth: 49px
 height: 49px;
 margin: 0;
@@ -103,7 +103,7 @@ display: flex;
 flex-direction: column;
 width: 400px;
 height: 400px;
-margin-left: 420px;
+margin-left: 410px;
 }
 
 .form h1 {
@@ -147,7 +147,7 @@ margin: 10px;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 120px;
+margin-left: 129px;
 background-color: #ffffff;
 border-color: #1b1c1c;
 border-radius: 20px;
@@ -161,7 +161,7 @@ color: #1b1c1c;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 120px;
+margin-left: 129px;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -223,11 +223,11 @@ align-self: center;
 list-style-type: none;
 font-family: system-ui;
 font-size: 149%;
-margin-top: 79px;
+margin-top: 49px;
 margin-bottom: 79px;
 }
 
-.home a {
+.homeul a {
 text-decoration: none;
 color: #1b1c1c;
 }
