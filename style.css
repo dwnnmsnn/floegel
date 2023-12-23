@@ -98,7 +98,15 @@ font-family: system-ui;
 color: #1b1c1c;
 }
 
+.connect {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
 .form {
+align-self: center;
 display: flex;
 flex-direction: column;
 width: 400px;
@@ -139,6 +147,7 @@ margin: 10px;
 }
 
 .submitbtn {
+align-self: center;
 width: 90px;
 height: 29px;
 margin-top: 22px;
@@ -152,6 +161,7 @@ color: #1b1c1c;
 }
 
 .submitbtn:hover {
+align-self: center;
 width: 90px;
 height: 29px;
 margin-top: 22px;
@@ -167,6 +177,7 @@ color: #1b1c1c;
 
 
 .submitbtn:active {
+align-self: center;
 width: 90px;
 height: 29px;
 margin-top: 22px;
@@ -210,7 +221,7 @@ font-size: 20px;
 margin-top: 129px;
 }
 
-.homeul {
+.home ul {
 align-self: center;
 list-style-type: none;
 font-family: system-ui;
