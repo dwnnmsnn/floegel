@@ -142,7 +142,6 @@ margin: 10px;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 129px;
 background-color: #ffffff;
 border-color: #1b1c1c;
 border-radius: 20px;
@@ -156,7 +155,6 @@ color: #1b1c1c;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 129px;
 background-color: #ffffff;
 border-color: #717171;
 display: inline-block;
@@ -172,7 +170,6 @@ color: #1b1c1c;
 width: 90px;
 height: 29px;
 margin-top: 22px;
-margin-left: 129px;
 background-color: #717171;
 border-color: #717171;
 display: inline-block;
@@ -222,7 +219,7 @@ margin-top: 49px;
 margin-bottom: 79px;
 }
 
-.homeul a {
+.home a {
 text-decoration: none;
 color: #1b1c1c;
 }
