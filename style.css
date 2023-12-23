@@ -72,7 +72,7 @@ padding: 0;
 .prd {
 width: 600px;
 heigth: 2000px;
-margin-left: 429px;
+margin-left: 229px;
 margin-bottom: 79px;
 }
 
@@ -221,6 +221,10 @@ font-size: 20px;
 margin-top: 129px;
 }
 
+.homeul {
+align-self: center;
+}
+
 .home ul {
 align-self: center;
 list-style-type: none;
@@ -305,7 +309,7 @@ display: flex;
 flex-direction: column;
 width: 400px;
 heigth: 2000px;
-margin-left: 479px;;
+margin-left: 229px;
 margin-bottom: 79px;
 }
 
