@@ -1,3 +1,9 @@
+Mobile Phone
+
+@media only screen and (max-width: 700px)
+
+Mindlist PRD
+
 .prdbox {
 display: flex;
 flex-direction: column;
@@ -32,48 +38,63 @@ color: #ffffff;
 }
 
 .sidemenu {
-width: 200px;
-height: 100%;
-top: 0;
-right: 0;
-background-color: #4c4c4b;
+display: flex;
+width: 100%;
+height:100%;
+backround-color: ;
+font-family: system-ui;
 display: none;
+ } 
+
+.sidemenu ul { 
+align-self: center;
+list-style-type: none;
+font-size: 22px;
+margin-top: 140px;
+margin-left: 400px;
+}
+
+.sidemenu a {
+font-family: system-ui;
+color: #1b1c1c;
+text-decoration: none;
+}
+
+.sidemenu a:hover {
+font-family: system-ui;
+color: #717171;
+text-decoration: none;
 }
 
 .sidemenu ul {
-margin-right: 4px;
-margin-top: 229px;
 list-style-type: none;
+font-family: system-ui;
+margin: 0;
+padding: 0;
+overflow: hidden;
+margin-top: 20px;
+margin-left: 449px;
+margin-bottom: 129px;
+}
+
+.sidemenu li {
+float: left;
 }
 
 .sidemenu a {
 display: block;
-font-family: system-ui;
-color: #ffffff;
+color: #1b1c1c;
+text-align: center;
+margin: 22px;
 text-decoration: none;
 }
 
-.sidemenu .submenu {
-display: none;
-}
-
-.sidemenu .item:hover + .submenu {
+.sidemenu a:hover {
 display: block;
-}
-
-.submenu {
-display: flex;
-weidth: 49px
-height: 49px;
-margin: 0;
-padding: 0;
-}
-
-.prd {
-width: 600px;
-heigth: 2000px;
-margin-left: 299px;
-margin-bottom: 79px;
+color: #717171;
+text-align: center;
+margin: 22px;
+text-decoration: none;
 }
 
 h1 { 
@@ -86,7 +107,15 @@ margin-bottom: 49px;
 color: #1b1c1c;
 }
 
+.prd {
+align-self: center;
+width: 600px;
+height: 2000px;
+margin-bottom: 79px;
+}
+
 .prd h {
+align-self: center;
 font-family: system-ui;
 font-weight: 100%;
 font-size: 100%;
@@ -94,9 +123,14 @@ color: #1b1c1c;
 }
 
 .prd p {
+align-self: center;
 font-family: system-ui;
 color: #1b1c1c;
 }
+
+
+Connect
+
 
 .connect {
 display: flex;
@@ -192,6 +226,34 @@ font-size: 12px;
 color: #ffffff;
 } 
 
+Home
+
+.openbtn {
+position: -webkit-sticky;
+position: sticky;
+align-self: flex-end;
+width: 60px;
+height: 60px;
+margin: 49px;
+background:none;
+border:none;
+font-family: system-ui;
+font-size:1em;
+color: #1b1c1c;
+}
+
+.sidemenu .closebtn {
+width: 49px;
+height; 49px;
+margin: 20px;
+margin-left: 880px;
+background: none;
+border: none;
+font-family: system-ui;
+font-size: 1em;
+color: #1b1c1c;
+}
+
 .homebox {
 display: flex;
 flex-direction: column;
@@ -231,7 +293,7 @@ align-self: center;
 align-self: center;
 list-style-type: none;
 font-family: system-ui;
-font-size: 149%;
+font-size: 22px;
 margin-top: 49px;
 margin-bottom: 79px;
 }
@@ -239,6 +301,11 @@ margin-bottom: 79px;
 .home a {
 text-decoration: none;
 color: #1b1c1c;
+}
+
+.home a:hover {
+text-decoration: none;
+color: #717171;
 }
 
 .imghome {
@@ -299,6 +366,8 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
+Improving Mindlist
+
 .imprbox {
 display: flex;
 flex-direction: column;
@@ -307,6 +376,7 @@ height: 100%;
 }
 
 .impr {
+align-self: center;
 display: flex;
 flex-direction: column;
 width: 400px;
@@ -316,15 +386,410 @@ margin-bottom: 79px;
 }
 
 .impr h {
+align-self: center;
 font-family: system-ui;
 margin: 11px;
 }
 
-.impr h1 {
+.impr .img {
+align-self: center;
+margin-top: 20px;
+}
+
+Desktop
+
+@media only screen and (min-width: 770px)
+
+Mindlist PRD
+
+.prdbox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.openbtn {
+position: -webkit-sticky;
+position: sticky;
+align-self: flex-end;
+width: 60px;
+height: 60px;
+margin: 49px;
+background:none;
+border:none;
+font-family: system-ui;
+font-size:1em;
+color: #1b1c1c;
+}
+
+.sidemenu .closebtn {
+width: 49px;
+height; 49px;
+margin: 20px;
+margin-left: 149px;
+background: none;
+border: none;
+font-family: system-ui;
+font-size: 1em;
+color: #ffffff;
+}
+
+.sidemenu {
+display: flex;
+width: 100%;
+height:100%;
+backround-color: ;
+font-family: system-ui;
+display: none;
+ } 
+
+.sidemenu ul { 
+align-self: center;
+list-style-type: none;
+font-size: 22px;
+margin-top: 140px;
+margin-left: 400px;
+}
+
+.sidemenu a {
+font-family: system-ui;
+color: #1b1c1c;
+text-decoration: none;
+}
+
+.sidemenu a:hover {
+font-family: system-ui;
+color: #717171;
+text-decoration: none;
+}
+
+.sidemenu ul {
+list-style-type: none;
+font-family: system-ui;
+margin: 0;
+padding: 0;
+overflow: hidden;
+margin-top: 20px;
+margin-left: 449px;
+margin-bottom: 129px;
+}
+
+.sidemenu li {
+float: left;
+}
+
+.sidemenu a {
+display: block;
+color: #1b1c1c;
+text-align: center;
+margin: 22px;
+text-decoration: none;
+}
+
+.sidemenu a:hover {
+display: block;
+color: #717171;
+text-align: center;
+margin: 22px;
+text-decoration: none;
+}
+
+h1 { 
+align-self: center;
+​​font-family: system-ui;
+font-weight: 20px;
+font-size: 29px;
+margin-top: 29px;
+margin-bottom: 49px;
+color: #1b1c1c;
+}
+
+.prd {
+align-self: center;
+width: 600px;
+height: 2000px;
+margin-bottom: 79px;
+}
+
+.prd h {
 align-self: center;
 font-family: system-ui;
+font-weight: 100%;
+font-size: 100%;
+color: #1b1c1c;
+}
+
+.prd p {
+align-self: center;
+font-family: system-ui;
+color: #1b1c1c;
+}
+
+
+Connect
+
+
+.connect {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.form {
+align-self: center;
+display: flex;
+flex-direction: column;
+width: 400px;
+height: 400px;
+}
+
+.name {
+display: flex;
+}
+
+.fname input[type=text] {
+flex: 1;
+border-color: #1b1c1c;
+border-radius: 9px;
+width: 190px;
+height: 20px;
+font-family: system-ui;
+margin: 10px;
+}
+
+.email input[type=text] {
+border-color: #1b1c1c;
+border-radius: 9px;
+width: 414px;
+height: 20px;
+font-family: system-ui;
+margin: 10px;
+}
+
+.subject input[type=text] {
+border-color: #1b1c1c;
+border-radius: 9px;
+width: 414px;
+height: 200px;
+font-family: system-ui;
+margin: 10px;
+}
+
+.submitbtn {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 22px;
+margin-left: 170px;
+background-color: #ffffff;
+border-color: #1b1c1c;
+border-radius: 20px;
+display: inline-block;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+.submitbtn:hover {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 22px;
+margin-left: 170px;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+
+.submitbtn:active {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 22px;
+margin-left: 170px;
+background-color: #717171;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+font-family: system-ui;
+font-size: 12px;
+color: #ffffff;
+} 
+
+Home
+
+.openbtn {
+position: -webkit-sticky;
+position: sticky;
+align-self: flex-end;
+width: 60px;
+height: 60px;
+margin: 49px;
+background:none;
+border:none;
+font-family: system-ui;
+font-size:1em;
+color: #1b1c1c;
+}
+
+.sidemenu .closebtn {
+width: 49px;
+height; 49px;
+margin: 20px;
+margin-left: 880px;
+background: none;
+border: none;
+font-family: system-ui;
+font-size: 1em;
+color: #1b1c1c;
+}
+
+.homebox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.home {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.home .homeh {
+align-self: center;
+width: 400px;
+height: 200px;
+font-family: system-ui;
+font-size: 49px;
+}
+
+.home .homep {
+align-self: center;
+width: 400px;
+height: 400px;
+font-family: system-ui;
+font-size: 20px;
+margin-top: 129px;
+}
+
+.homeul {
+align-self: center;
+}
+
+.home ul {
+align-self: center;
+list-style-type: none;
+font-family: system-ui;
+font-size: 22px;
+margin-top: 49px;
+margin-bottom: 79px;
+}
+
+.home a {
+text-decoration: none;
+color: #1b1c1c;
+}
+
+.home a:hover {
+text-decoration: none;
+color: #717171;
+}
+
+.imghome {
+display: flex;
+align-self: center;
+margin-top: 79px;
+}
+
+.imghome img {
+padding: 7px;
+}
+
+.imghome .img1 {
+flex: 1;
+margin-top: 0;
+padding: 2px;
+}
+
+.imghome .img2 {
+margin-top: 2.29px;
+padding: 2px;
+}
+
+.home .buttonp {
+align-self: center;
+width: 290px;
+height: 29px;
+margin-top: 49px;
+}
+
+.home .homebtn {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 79px;
+font-size: 1em;
+background-color: #ffffff;
+border-color: #1b1c1c;
+display: inline-block;
+border-radius: 20px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+.home .homebtn:hover {
+align-self: center;
+width: 90px;
+height: 29px;
+margin-top: 79px;
+background-color: #ffffff;
+border-color: #717171;
+display: inline-block;
+border-radius: 20px;
+box-shadow: 0px 10px 22px;
+font-family: system-ui;
+font-size: 12px;
+color: #1b1c1c;
+}
+
+Improving Mindlist
+
+.imprbox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.impr {
+align-self: center;
+display: flex;
+flex-direction: column;
+width: 400px;
+heigth: 2000px;
+margin-left: 299px;
+margin-bottom: 79px;
+}
+
+.impr h {
+align-self: center;
+font-family: system-ui;
+margin: 11px;
 }
 
 .impr .img {
+align-self: center;
 margin-top: 20px;
 }
