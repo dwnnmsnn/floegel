@@ -75,7 +75,7 @@ height: 100%;
 
 .prd {
 align-self: center;
-width: 490px;
+width: 200px;
 height: 1000px;
 margin-bottom: 79px;
 }
@@ -105,7 +105,7 @@ height: 100%;
 align-self: center;
 display: flex;
 flex-direction: column;
-width: 400px;
+width: 290px;
 height: 400px;
 }
 
@@ -117,7 +117,7 @@ display: flex;
 flex: 1;
 border-color: #1b1c1c;
 border-radius: 9px;
-width: 190px;
+width: 110px;
 height: 20px;
 font-family: system-ui;
 margin: 10px;
@@ -126,7 +126,7 @@ margin: 10px;
 .email input[type=text] {
 border-color: #1b1c1c;
 border-radius: 9px;
-width: 414px;
+width: 290px;
 height: 20px;
 font-family: system-ui;
 margin: 10px;
@@ -135,7 +135,7 @@ margin: 10px;
 .subject input[type=text] {
 border-color: #1b1c1c;
 border-radius: 9px;
-width: 414px;
+width: 290px;
 height: 200px;
 font-family: system-ui;
 margin: 10px;
@@ -324,8 +324,8 @@ margin-bottom: 29px;
 
 .impr img {
 align-self: flex-start;
-width: 490px;
-height: 229px;
+width: 229px;
+height: 190px;
 }
 
 @media only screen and (min-width: 700px);
@@ -340,7 +340,6 @@ display: none;
 
 .sidemenu {
 font-family: system-ui;
-overflow: hidden;
 margin-top: 29px;
 margin-left: 449px;
 margin-bottom: 100px;
