@@ -213,10 +213,11 @@ font-size: 49px;
 
 .home .homep {
 align-self: center;
-width: 229px;
+width: 400px;
 height: 400px;
 font-family: system-ui;
-font-size: 10px;
+font-size: 20px;
+margin-top: 79px;
 }
 
 .homeul {
@@ -319,15 +320,14 @@ margin-bottom: 79px;
 .impr h {
 align-self: flex-start;
 font-family: system-ui;
-margin-top: 22px;
-margin-bottom: 22px;
+margin-top: 29px;
+margin-bottom: 29px;
 }
 
 .impr img {
-align-self: center;
-width: 400px;
-height: 190px:
-margin-top: 20px;
+align-self: flex-start;
+width: 490px;
+height: 229px;
 }
 
 @media only screen and (min-width: 700px)
@@ -543,6 +543,7 @@ width: 400px;
 height: 400px;
 font-family: system-ui;
 font-size: 20px;
+margin-top: 79px;
 }
 
 .homeul {
@@ -645,13 +646,12 @@ margin-bottom: 79px;
 .impr h {
 align-self: flex-start;
 font-family: system-ui;
-margin-top: 22px;
-margin-bottom: 22px;
+margin-top: 29px;
+margin-bottom: 29px;
 }
 
 .impr img {
-align-self: center;
-width: 400px;
-height: 190px:
-margin-top: 20px;
+align-self: flex-start;
+width: 490px;
+height: 229px;
 }
