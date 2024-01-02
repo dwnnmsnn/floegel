@@ -1,16 +1,6 @@
-
 @media only screen and (max-width: 700px)
 
-.prdbox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
 .openbtn {
-position: -webkit-sticky;
-position: sticky;
 align-self: flex-end;
 width: 60px;
 height: 60px;
@@ -18,7 +8,7 @@ margin: 49px;
 background:none;
 border:none;
 font-family: system-ui;
-font-size:1em;
+font-size: 22px;
 color: #1b1c1c;
 }
 
@@ -30,38 +20,18 @@ margin-left: 149px;
 background: none;
 border: none;
 font-family: system-ui;
-font-size: 1em;
-color: #ffffff;
+font-size: 22px;
+color: #1b1c1c;
 }
 
 .sidemenu {
 display: flex;
 width: 100%;
 height:100%;
-backround-color: ;
+backround-color: #ffffff;
 font-family: system-ui;
 display: none;
- } 
-
-.sidemenu ul { 
-align-self: center;
-list-style-type: none;
-font-size: 22px;
-margin-top: 140px;
-margin-left: 400px;
-}
-
-.sidemenu a {
-font-family: system-ui;
-color: #1b1c1c;
-text-decoration: none;
-}
-
-.sidemenu a:hover {
-font-family: system-ui;
-color: #717171;
-text-decoration: none;
-}
+ }
 
 .sidemenu ul {
 list-style-type: none;
@@ -69,29 +39,23 @@ font-family: system-ui;
 margin: 0;
 padding: 0;
 overflow: hidden;
-margin-top: 20px;
+margin-top: 129px;
 margin-left: 449px;
-margin-bottom: 129px;
-}
-
-.sidemenu li {
-float: left;
+margin-bottom: 229px;
 }
 
 .sidemenu a {
-display: block;
+font-family: system-ui;
 color: #1b1c1c;
-text-align: center;
-margin: 22px;
 text-decoration: none;
+font-size: 22px;
 }
 
-.sidemenu a:hover {
-display: block;
-color: #717171;
-text-align: center;
-margin: 22px;
+.sidemenu a:active {
+font-family: system-ui;
+color: #1b1c1c;
 text-decoration: none;
+font-size: 22px;
 }
 
 h1 { 
@@ -102,6 +66,13 @@ font-size: 29px;
 margin-top: 29px;
 margin-bottom: 49px;
 color: #1b1c1c;
+}
+
+.prdbox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
 }
 
 .prd {
@@ -125,10 +96,6 @@ font-family: system-ui;
 color: #1b1c1c;
 }
 
-
-Connect
-
-
 .connect {
 display: flex;
 flex-direction: column;
@@ -136,7 +103,17 @@ width: 100%;
 height: 100%;
 }
 
-.form {
+.connect h1 { 
+align-self: center;
+​​font-family: system-ui;
+font-weight: 20px;
+font-size: 29px;
+margin-top: 29px;
+margin-bottom: 29px;
+color: #1b1c1c;
+}
+
+form {
 align-self: center;
 display: flex;
 flex-direction: column;
@@ -207,7 +184,6 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-
 .submitbtn:active {
 align-self: center;
 width: 90px;
@@ -222,34 +198,6 @@ font-family: system-ui;
 font-size: 12px;
 color: #ffffff;
 } 
-
-Home
-
-.openbtn {
-position: -webkit-sticky;
-position: sticky;
-align-self: flex-end;
-width: 60px;
-height: 60px;
-margin: 49px;
-background:none;
-border:none;
-font-family: system-ui;
-font-size:1em;
-color: #1b1c1c;
-}
-
-.sidemenu .closebtn {
-width: 49px;
-height; 49px;
-margin: 20px;
-margin-left: 880px;
-background: none;
-border: none;
-font-family: system-ui;
-font-size: 1em;
-color: #1b1c1c;
-}
 
 .homebox {
 display: flex;
@@ -267,7 +215,7 @@ height: 100%;
 
 .home .homeh {
 align-self: center;
-width: 400px;
+width: 299px;
 height: 200px;
 font-family: system-ui;
 font-size: 49px;
@@ -275,11 +223,12 @@ font-size: 49px;
 
 .home .homep {
 align-self: center;
-width: 400px;
+width: 299px;
 height: 400px;
 font-family: system-ui;
 font-size: 20px;
 margin-top: 129px;
+margin-bottom: 79px;
 }
 
 .homeul {
@@ -362,8 +311,6 @@ font-family: system-ui;
 font-size: 12px;
 color: #1b1c1c;
 }
-
-Improving Mindlist
 
 .imprbox {
 display: flex;
@@ -393,83 +340,34 @@ align-self: center;
 margin-top: 20px;
 }
 
-Desktop
-
 @media only screen and (min-width: 770px)
 
-Mindlist PRD
-
-.prdbox {
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-}
-
 .openbtn {
-position: -webkit-sticky;
-position: sticky;
 align-self: flex-end;
+display: none;
 width: 60px;
 height: 60px;
 margin: 49px;
-background:none;
-border:none;
+background: none;
+border: none;
 font-family: system-ui;
-font-size:1em;
+font-size: 22px;
 color: #1b1c1c;
 }
 
 .sidemenu .closebtn {
-width: 49px;
-height; 49px;
-margin: 20px;
-margin-left: 149px;
 background: none;
 border: none;
-font-family: system-ui;
-font-size: 1em;
 color: #ffffff;
-}
-
-.sidemenu {
-display: flex;
-width: 100%;
-height:100%;
-backround-color: ;
-font-family: system-ui;
-display: none;
- } 
-
-.sidemenu ul { 
-align-self: center;
-list-style-type: none;
-font-size: 22px;
-margin-top: 140px;
-margin-left: 400px;
-}
-
-.sidemenu a {
-font-family: system-ui;
-color: #1b1c1c;
-text-decoration: none;
-}
-
-.sidemenu a:hover {
-font-family: system-ui;
-color: #717171;
-text-decoration: none;
 }
 
 .sidemenu ul {
 list-style-type: none;
 font-family: system-ui;
-margin: 0;
-padding: 0;
 overflow: hidden;
-margin-top: 20px;
+margin-top; 29px;
 margin-left: 449px;
-margin-bottom: 129px;
+margin-bottom: 100px;
 }
 
 .sidemenu li {
@@ -477,18 +375,22 @@ float: left;
 }
 
 .sidemenu a {
-display: block;
+font-family: system-ui;
 color: #1b1c1c;
-text-align: center;
-margin: 22px;
 text-decoration: none;
+margin-left: 22px;
 }
 
 .sidemenu a:hover {
-display: block;
+font-family: system-ui;
 color: #717171;
-text-align: center;
-margin: 22px;
+text-decoration: none;
+margin-left: 22px;
+}
+
+.sidemenu a:active {
+font-family: system-ui;
+color: #717171;
 text-decoration: none;
 }
 
@@ -502,10 +404,17 @@ margin-bottom: 49px;
 color: #1b1c1c;
 }
 
+.prdbox {
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
 .prd {
 align-self: center;
-width: 600px;
-height: 2000px;
+width: 490px;
+height: 1000px;
 margin-bottom: 79px;
 }
 
@@ -522,10 +431,6 @@ align-self: center;
 font-family: system-ui;
 color: #1b1c1c;
 }
-
-
-Connect
-
 
 .connect {
 display: flex;
@@ -605,7 +510,6 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-
 .submitbtn:active {
 align-self: center;
 width: 90px;
@@ -620,34 +524,6 @@ font-family: system-ui;
 font-size: 12px;
 color: #ffffff;
 } 
-
-Home
-
-.openbtn {
-position: -webkit-sticky;
-position: sticky;
-align-self: flex-end;
-width: 60px;
-height: 60px;
-margin: 49px;
-background:none;
-border:none;
-font-family: system-ui;
-font-size:1em;
-color: #1b1c1c;
-}
-
-.sidemenu .closebtn {
-width: 49px;
-height; 49px;
-margin: 20px;
-margin-left: 880px;
-background: none;
-border: none;
-font-family: system-ui;
-font-size: 1em;
-color: #1b1c1c;
-}
 
 .homebox {
 display: flex;
@@ -761,7 +637,14 @@ font-size: 12px;
 color: #1b1c1c;
 }
 
-Improving Mindlist
+.impr h1 { 
+align-self: center;
+font-family: system-ui;
+font-weight: 20px;
+font-size: 29p;
+margin-bottom: 100px;
+color: #1b1c1c;
+}
 
 .imprbox {
 display: flex;
@@ -774,14 +657,13 @@ height: 100%;
 align-self: center;
 display: flex;
 flex-direction: column;
-width: 400px;
-heigth: 2000px;
-margin-left: 299px;
+width: 490px;
+heigth: 1000px;
 margin-bottom: 79px;
 }
 
 .impr h {
-align-self: center;
+align-self: flex-start;
 font-family: system-ui;
 margin: 11px;
 }
