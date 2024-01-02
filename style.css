@@ -13,8 +13,9 @@ color: #1b1c1c;
 }
 
 .sidemenu .closebtn {
+display: none;
 width: 49px;
-height; 49px;
+height: 49px;
 margin: 20px;
 margin-left: 149px;
 background: none;
@@ -60,7 +61,7 @@ font-size: 22px;
 
 h1 { 
 align-self: center;
-​​font-family: system-ui;
+font-family: system-ui;
 font-weight: 20px;
 font-size: 29px;
 margin-top: 29px;
