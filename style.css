@@ -1,12 +1,12 @@
-@media only screen and (max-width: 700px)
+@media only screen and (max-width: 600px)
 
 .openbtn {
 align-self: flex-end;
 width: 60px;
 height: 60px;
 margin: 49px;
-background:none;
-border:none;
+background: none;
+border: none;
 font-family: system-ui;
 font-size: 22px;
 color: #1b1c1c;
@@ -341,7 +341,7 @@ align-self: center;
 margin-top: 20px;
 }
 
-@media only screen and (min-width: 770px)
+@media only screen and (min-width: 700px)
 
 .openbtn {
 align-self: flex-end;
@@ -357,6 +357,7 @@ color: #1b1c1c;
 }
 
 .sidemenu .closebtn {
+display: none;
 background: none;
 border: none;
 color: #ffffff;
