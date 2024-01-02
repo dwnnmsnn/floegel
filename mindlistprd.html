@@ -1,95 +1,52 @@
 <!Doctype html>
 <html>
-
 <head>
-<title>mvpfloegel/mindlistprd</title>
+<title>mvpfloegel/improvingmindlist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="script.js" type="text/js"></script>
 </head>
 
-<div class=prdbox>
 <body>
-  
-<button onclick="document.getElementById('sidemenu').style.display = 'block'" class=openbtn>
-<img src="data:image/svg+xml;base64,PHN2ZyBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjIgMTYuNzVjMC0uNDE0LS4zMzYtLjc1LS43NS0uNzVoLTE4LjVjLS40MTQgMC0uNzUuMzM2LS43NS43NXMuMzM2Ljc1Ljc1Ljc1aDE4LjVjLjQxNCAwIC43NS0uMzM2Ljc1LS43NXptMC01YzAtLjQxNC0uMzM2LS43NS0uNzUtLjc1aC0xOC41Yy0uNDE0IDAtLjc1LjMzNi0uNzUuNzVzLjMzNi43NS43NS43NWgxOC41Yy40MTQgMCAuNzUtLjMzNi43NS0uNzV6bTAtNWMwLS40MTQtLjMzNi0uNzUtLjc1LS43NWgtMTguNWMtLjQxNCAwLS43NS4zMzYtLjc1Ljc1cy4zMzYuNzUuNzUuNzVoMTguNWMuNDE0IDAgLjc1LS4zMzYuNzUtLjc1eiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9zdmc+">
-</button>
+
+<div class=imprbox>
 
 <div id=sidemenu class=sidemenu>
-<button onclick="closesidemenu()" class=closebtn>
-&times;
+<button onclick=closeSidemenu() class=closebtn>&times;
 </button>
+
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="imprmindlist.html">Improving Mindlist</a></li>
 <li class=item><a href="mindlistprd.html">Mindlist PRD</a></li>
-
-<ul class=submenu>
-<li><a href="www.mvpfloegel.com/mindlist/prd/user">User</a></li>
-<li><a href="www.mvpfloegel.com/mindlist/prd/user/types">User Types</a></li>
-<li><a href="www.mvpfloegel.com/mindlist/prd/product">Product</a></li>
-<li><a href="www.mvpfloegel.com/mindlist/prd/requirements">Requirements</a></li>
-<li><a href="www.mvpfloegel.com/mindlist/prd/successmetrics">Success Metrics</a></li>
-<li><a href="www.mvpfloegel.com/mindlist/prd/open/questions">Open Questions</a></li>
-</ul>
-
 <li><a href="https://github.com/dwnmmsnn/mvpfloegel">Github</a></li>
 </ul>
 </div>
 
-<h1>Mindlist PRD</h1></br></br></br></br>
+<div id=impr class=impr>
+<h1>Improving Mindlist</h1>
+<button onclick=showSidemenu() class=openbtn>Menu</button>
+ 
 
-<div class=prd>
-<p>Mindlist gives users the simple tool to write To do lists. It still keeps the user with the problem of not using the To do list or undone To dos left on the list with the low price of Mindlist it might result in reducing user lifetime. The new Support Popups will support the user to be more productive while giving Mindlist the opportunity for better user retention (consider new pricing model).</p>
+<h>Mindlist</h>
 
-<h>User</h></br></br>
 
-<p></p></br></br>
+  
+<h>Problem</h>
 
-<h>User Types</h></br></br>
+<h>User</h>
 
-<p>
-1. User - people who use Mindlist for free</br>
-2. User Premium - people who use Mindlist premium with overview of scheduled To Dos, recurring To dos, more colors</br>
-</p></br></br>
+<h>Product</h>
 
-<h>Product<h></br></br>
 
-<h>Suggestion popups</h>
+<h>How to go from here?</h>
 
-<p>
-The popups will notify the user trying to support the user to be more productive. Suggesting to try or offering to put some groceries you need to buy on your grocery list.
-</p>
 
-<h>Showing undone To dos</p>
+<h>Why build it?</h>
 
-<p>
-The window showing undone To dos will be shown on the Mindlist home screen every time the user opens Mindlist. It offers users to move, reschedule, delete, or tick off undone To dos.
-</p></br></br>
+</div>
 
-<h>Requirements</h></br></br>
-
-<h>Suggestion popups</h>
-
-<p></p>
-
-<h>Showing undone To dos</h>
-
-<p></p></br></br>
-
-<h>Success Metrics</h></br></br>
-
-<p>
-number of moved To dos from undone list   10 To dos per user per week</br>
-number of times user opens Mindlist with popups 10 times per user per week</br>
-</p></br></br>
-
-<h>Open Questions</h></br></br>
-
-<p>Pricing Modell?</br>
-Will existing users continue to use Mindlist?</br>
-How often should users be notified with suggestions?</br>
-How often should the window with undone To dos be shown?</br></p></br></br>
 </div>
 
 </body>
-</div>
 </html>
