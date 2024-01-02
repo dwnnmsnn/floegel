@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 400px);
 
 .openbtn {
 align-self: flex-end;
@@ -36,8 +36,6 @@ display: none;
 .sidemenu ul {
 list-style-type: none;
 font-family: system-ui;
-margin: 0;
-padding: 0;
 overflow: hidden;
 margin-top: 129px;
 margin-left: 449px;
@@ -330,19 +328,14 @@ width: 490px;
 height: 229px;
 }
 
-@media only screen and (min-width: 700px)
+@media only screen and (min-width: 700px);
 
 .openbtn {
 display: none;
-background: none;
-border: none;
 }
 
 .sidemenu .closebtn {
 display: none;
-background: none;
-border: none;
-color: #ffffff;
 }
 
 .sidemenu ul {
@@ -646,6 +639,6 @@ margin-bottom: 29px;
 
 .impr img {
 align-self: flex-start;
-width: 490px;
-height: 229px;
+width: 499px;
+height: 190px;
 }
